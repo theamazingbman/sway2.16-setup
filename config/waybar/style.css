@@ -238,6 +238,12 @@ window#waybar {
     color: @text;
 }
 
+/* System Monitor Icons */
+#temperature label:first-child,
+#cpu label:first-child,
+#memory label:first-child {
+    color: @sapphire;
+}
 
 /* --- System Tray --- */
 #tray {
