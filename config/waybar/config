@@ -139,7 +139,7 @@
         }
     },
     "cpu": {
-        "format": " {usage}%",
+        "format": "<span color='#7dc4e4'> </span>{usage}%",
         "tooltip": false,
         "on-click": "foot -e btop"
     },
@@ -165,8 +165,8 @@
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{icon}{temperatureF}°",
-        "format-icons": [" "],
+        "format": "<span color='#7dc4e4'></span> {temperatureF}°",
+        "format-icons": [""],
         "tooltip": false,
         "on-click": "system monitor"
     },
